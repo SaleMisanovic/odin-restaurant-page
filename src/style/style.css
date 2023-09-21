@@ -1,0 +1,92 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../assets/Italianno-Regular.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }
+
+body{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #F6F5F2 ;
+}
+
+nav{
+    display: flex;
+    gap: 40px;
+    margin:20px;
+    font-size: 50px;
+    font-family: 'MyFont';
+}
+
+a{
+    cursor: pointer;
+}
+
+#content{
+    margin:20px;
+}
+
+.hero_image{
+    height: 600px;
+    background: url('../assets/background.jpg');
+    background-size: contain;         
+    background-position: center;
+    border-radius: 5px;
+}
+
+.imageLogo{
+    font-size: 200px;
+    font-family: 'MyFont';
+    text-align: center;
+    margin: 0 auto;
+    color: #FF5733 ;
+}
+
+.hero_text{
+    height: 600px;
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-size: larger;
+    padding: 1em;
+}
+
+footer{
+    margin: 20px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.food{
+    border-radius: 10px;
+    border: solid 5px #5D704B;
+    background-color: white;
+}
+
+.details{
+    padding:0.5em;
+    font-size: larger;
+}
+
+
+
+img{
+    border-bottom: solid 5px #5D704B;
+    height: 300px;
+    width: 300px;
+}
+
+.activeTab{
+    color: #FF5733;
+}
+
+.info{
+    font-size: larger;
+}
